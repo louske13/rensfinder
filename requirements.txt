@@ -1,0 +1,8 @@
+Flask
+Flask-Login
+Flask-WTF
+Flask-SQLAlchemy
+feedparser
+googletrans==4.0.0rc1
+pywhatkit
+schedule
