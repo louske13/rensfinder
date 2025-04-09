@@ -1,3 +1,25 @@
 <h2>Tableau de bord</h2>
 <p>Bonjour {{ user.email }} !</p>
+
+<form method="POST" action="/run-script">
+  <label for="script">🛰️ Choisir un moteur de veille :</label><br>
+  <select name="script" id="script">
+    <option value="sonar">Sonar</option>
+    <option value="satellite">Satellite</option>
+  </select>
+
+  <h3>📌 Mots-clés personnalisés :</h3>
+  <textarea name="keywords" rows="4" cols="50" placeholder="mot1, mot2, mot3..."></textarea>
+
+  <h3>🌐 Flux RSS :</h3>
+  <textarea name="feeds" rows="4" cols="50" placeholder="https://exemple1.com/rss, https://exemple2.com/rss..."></textarea>
+
+  <h3>📬 Destinataires (e-mail) :</h3>
+  <textarea name="recipients" rows="2" cols="50" placeholder="email1@example.com, email2@example.com"></textarea>
+
+  <br><br>
+  <button type="submit">🚀 Lancer la veille</button>
+</form>
+
+<br>
 <a href="/logout">Se déconnecter</a>

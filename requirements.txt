@@ -2,8 +2,7 @@ Flask
 Flask-Login
 Flask-WTF
 Flask-SQLAlchemy
+Flask-Mail
+itsdangerous
 feedparser
-googletrans==4.0.0rc1
-pywhatkit
 schedule
-email_validator
