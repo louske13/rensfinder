@@ -1,3 +1,3 @@
-# RensFinder
+# RensFinder – Version Finalisée
 
-Application de veille intelligente avec authentification, validation d’e-mail, réinitialisation de mot de passe et interface utilisateur sombre de style espion.
+Application pro de veille avec UI sombre, compte utilisateur sécurisé, validation email et dashboard personnalisé.
